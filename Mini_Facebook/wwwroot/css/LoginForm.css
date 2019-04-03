@@ -1,0 +1,59 @@
+#LoginForm {
+    background-color: #A2A2A2;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 370px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#FormBody{
+    margin-left:20px;
+}
+
+#Title {
+    text-align: center;
+    color: white;
+    font-size : 40pt;
+    font-weight:bold;
+}
+
+.headers{
+    color: white;
+}
+
+#hr{
+    width:300px;
+}
+
+#Footers {
+    width: 300px;
+    margin-left:10px;
+}
+
+#SubBtn, #FbBtn {
+    width: 300px;
+    font-weight:bold;
+}
+
+#FbBtn {
+    width: 300px;
+    color: white;
+    margin-left:20px;
+}
+
+#NeedAccount {
+    display: inline;
+    margin-left: 70px;
+    font-weight:bold;
+}
+#RegisterLink {
+    font-weight:bold;
+    color:white;
+}
+.FormInputs {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 3px;
+}

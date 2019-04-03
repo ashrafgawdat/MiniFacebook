@@ -1,0 +1,42 @@
+﻿#RegisterForm {
+    background-color: #A2A2A2;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 370px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#FormBodyR {
+    margin-left: 20px;
+}
+
+#TitleR {
+    text-align: center;
+    color: white;
+    font-size: 40pt;
+    font-weight: bold;
+}
+
+.headersR {
+    display: inline;
+    width: 100px;
+}
+#fName {
+    display:inline;
+}
+#lName {
+    display:inline;
+}
+
+#hrR {
+    width: 300px;
+}
+
+#SubBtnR {
+    width: 300px;
+    font-weight: bold;
+}
+#beInline {
+    display: inline;
+}

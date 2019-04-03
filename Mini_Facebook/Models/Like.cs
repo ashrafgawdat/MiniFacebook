@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Mini_Facebook.Models
+{
+    public class Like
+    {
+        
+        [Key]
+        [ForeignKey("User")]
+        public string UserID { get; set; }
+
+        [Key]
+        [ForeignKey("Post")]
+        public int PostID { get; set; }
+
+        public bool Deleted { get; set; }
+
+        public User User { get; set; }
+
+        public Post Post { get; set; }
+    }
+}
