@@ -79,7 +79,15 @@ namespace Mini_Facebook.Areas.Identity.Pages.Account
             returnUrl = returnUrl ?? Url.Content("~/");
             if (ModelState.IsValid)
             {
-                var user = new User {UserName = Input.Email, Email = Input.Email, LastName = Input.LastName, FirstName = Input.FirstName, RoleID = "2", Gender = Input.Gender, PhoneNumber = Input.PhoneNumber};
+                if (Input.Gender == true)
+                {
+                    Input.PhotoSrc = "~/images/Female1.jpg";
+                }
+                else
+                {
+                    Input.PhotoSrc = "~/images/Male1.png";
+                }
+                var user = new User {UserName = Input.Email, Email = Input.Email, LastName = Input.LastName, FirstName = Input.FirstName, RoleID = "2", Gender = Input.Gender, PhoneNumber = Input.PhoneNumber, Birthday = Input.Birthday, PhotoSrc = Input.PhotoSrc};
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
