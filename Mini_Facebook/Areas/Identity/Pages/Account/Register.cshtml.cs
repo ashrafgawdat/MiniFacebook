@@ -66,6 +66,8 @@ namespace Mini_Facebook.Areas.Identity.Pages.Account
             public string PhotoSrc { get; set; }
             public string PhoneNumber { get; set; }
             public string UserName { get; set; }
+
+            [DataType(DataType.Date)]
             public DateTime Birthday { get; set; }
         }
 
