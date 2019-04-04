@@ -1,6 +1,6 @@
 ﻿#RegisterForm {
     background-color: #A2A2A2;
-    width: 500px;
+    width: 200px;
     margin-top: 0px;
     margin-left: 370px;
     padding: 30px;
@@ -8,7 +8,7 @@
 }
 
 #FormBodyR {
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 
@@ -36,9 +36,17 @@
 }
 
 .genderStyle{
-    /*text-size-adjust:150%;*/
-    font-size:18px;
+    font-size:30px;
 }
 .lblBD {
     font-size: 16px;
+}
+
+.txtInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
 }
